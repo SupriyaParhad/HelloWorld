@@ -5,7 +5,8 @@ exports.getAll=function(req,res)
    var path="./products.json"
    fs.readFile(path,(err,data)=>{
     if(data)
-    {
+    {// coment added
+       
         console.log(data)
         var product=JSON.parse(data);
         console.log(product)
