@@ -1,5 +1,5 @@
 var fs=require("fs")
-
+//This is edited copy
 exports.getAll=function(req,res)
 {
    var path="./products.json"
